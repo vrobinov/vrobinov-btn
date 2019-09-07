@@ -1,0 +1,49 @@
+body{
+ background: linear-gradient(to top, #057d55 0%, #192c35 100%);
+ height: 1000px; 
+ 
+}
+.container {
+    padding: 0 20px;
+    max-width: 835px;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 50px;
+  margin: 10px 20px;
+  position: relative;
+  background: none;
+  width: 170px;
+  height: 53px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.btn-one {
+   border: 1px solid white; 
+   color: white;
+}
+.btn-two {
+   border: 1px solid black; 
+   color: black;   
+}
+
+.btn-one:hover {
+    border: 2px solid black; 
+    color:black;
+    background-color:whitesmoke;
+    opacity: .8;
+}
+.btn-two:hover {
+    border: 1px solid white; 
+    color:white;
+    background-color:black;
+    opacity: .8;
+}
